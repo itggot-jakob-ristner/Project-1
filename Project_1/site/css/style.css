@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15vw auto 15vw;
+}
+
+.container * {
+    grid-gap: 2vw;
+}
+
+header {
+    grid-row: span 1;
+    background-color: orangered;
+    display: grid;
+    grid-template-columns: 15vw 70vw 15vw;
+}
+
+.hamburger {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.logo{
+    grid-column: 3 / 4;
+}
+
+main {
+    grid-row: span 1;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 15vw 70vw 15vw;
+    grid-template-rows: 15vh 30vw 15vh auto
+}
+
+footer {
+    grid-row: span 1;
+    display: grid;
+    grid-template-columns: 15vw 70vw 15vw;
+    background-color: orangered;
+}
+
