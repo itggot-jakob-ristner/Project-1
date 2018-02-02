@@ -5,6 +5,7 @@ body {
 
 }
 
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -18,7 +19,7 @@ body {
 
 header {
     grid-row: span 1;
-    background-color: orangered;
+    background-color: rgb(51, 46, 122);
     display: grid;
     grid-template-columns: 15vw 70vw 15vw;
 }
@@ -26,6 +27,7 @@ header {
 .hamburger {
     grid-row: span 1;
     grid-column: span 1;
+    
 }
 
 .logo{
@@ -34,7 +36,7 @@ header {
 
 main {
     grid-row: span 1;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 15vw 70vw 15vw;
     grid-template-rows: 15vh 30vw 15vh auto
@@ -44,6 +46,78 @@ footer {
     grid-row: span 1;
     display: grid;
     grid-template-columns: 15vw 70vw 15vw;
-    background-color: orangered;
+    background-color: rgb(51, 46, 122);
+}
+
+.hamburger div {
+    color: white;
+    font-size: 14vw;
+}
+
+.logotext {
+    text-align: center;
+    color: white;
+    font-size: 7.5vw;
+    margin-top: 1.75vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+div.login-reg {
+    grid-row: span 1;
+    grid-column: 2 / 3;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 5vh;
+}
+
+div.login-reg > div{
+    background-color: rgb(77, 69, 185);
+    grid-row: span 1;
+    grid-column: span 1;
+    border-radius: 4vh;
+}
+
+div.login-reg > div:hover {
+    border: solid black;
+}
+
+div.login-reg > div > * {
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 6vw;
+}
+
+
+.advert {
+    grid-column: 2 / 3;
+    grid-row: span 1;
+    text-align: center;
+    font-family: roboto;
+    font-size: 6vw;
+
+}
+
+.search {
+    grid-column: 2 / 3;
+    grid-row: span 1;
+    background-color: rgb(252, 177, 38);
+    border-radius: 4vh;
+    transition: 0.1s;
+}
+
+.search a {
+    font-family: ubuntu;
+    text-decoration: none;
+    color: white;
+    font-size: 10vw;
+}
+
+.search:hover {
+    border: solid black;
+    border-width: 1vw;
+    background-color: rgb(255, 166, 0);
 }
 
