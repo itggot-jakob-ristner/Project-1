@@ -121,3 +121,12 @@ div.login-reg > div > * {
     background-color: rgb(255, 166, 0);
 }
 
+.list {
+    grid-column: 2 / 3;
+    grid-row: span 1;
+    font-family: ubuntu;
+    color: black;
+    font-size: 3vh;
+    margin: top: 5vh;
+}
+
