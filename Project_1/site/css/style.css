@@ -36,7 +36,7 @@ header {
 
 main {
     grid-row: span 1;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(96, 110, 168);
     display: grid;
     grid-template-columns: 15vw 70vw 15vw;
     grid-template-rows: 15vh 30vw 15vh auto
@@ -96,7 +96,7 @@ div.login-reg > div > * {
     grid-row: span 1;
     text-align: center;
     font-family: roboto;
-    font-size: 6vw;
+    font-size: 5.5vw;
 
 }
 
@@ -118,15 +118,14 @@ div.login-reg > div > * {
 .search:hover {
     border: solid black;
     border-width: 1vw;
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(253, 202, 106);
 }
 
 .list {
     grid-column: 2 / 3;
     grid-row: span 1;
-    font-family: ubuntu;
+    font-family: roboto;
     color: black;
-    font-size: 3vh;
-    margin: top: 5vh;
+    font-size: 5.5vw;
 }
 
