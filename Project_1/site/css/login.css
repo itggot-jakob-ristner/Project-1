@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/flygplan.png");
+    background-color: black;
     margin: 0;
     padding: 0;
 
@@ -36,11 +36,10 @@ header {
 
 main {
     grid-row: span 1;
-    /* background-color: rgb(96, 110, 168); */
-    /* background-image: url("./img/flygplan.png"); */
+    background-color: rgb(96, 110, 168);
     display: grid;
     grid-template-columns: 15vw 70vw 15vw;
-    grid-template-rows: 15vh 30vw 15vh auto
+    grid-template-rows: 15vh 30vw 15vh 15vh auto
 }
 
 footer {
@@ -76,7 +75,7 @@ div.login-reg {
 div.login-reg > div{
     background-color: rgb(77, 69, 185);
     grid-row: span 1;
-    grid-column: span 1;
+    grid-column: span 2;
     border-radius: 4vh;
 }
 
@@ -128,24 +127,19 @@ div.login-reg > div > * {
     font-family: roboto;
     color: black;
     font-size: 5.5vw;
-    display: block;
 }
 
-.information {
+.input1 {
+    margin-top: 7vh;
     grid-column: 2 / 3;
-    grid-row: 4 / 5;
-    background-color: rgb(96, 110, 168);
-    font-family: roboto;
-    color: black;
-    font-size: 5.5vw;
-    border-top-left-radius: 3vw;
-    border-top-right-radius: 3vw;
-    text-align: center;
+    grid-row: span 1;
 }
 
-.none {
-    display: none;
+main * {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5vw;
 }
 
-
-
+input {
+    font-size: 4.5vw;
+}

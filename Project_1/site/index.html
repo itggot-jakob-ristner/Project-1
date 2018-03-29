@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Roboto" rel="stylesheet">
+    <script src="js/myscript.js"></script> 
     <title>Jakes Resor</title>
 </head>
 
@@ -24,7 +25,7 @@
         <main>
             <div class="login-reg">
                 <div class="login" style="display:flex;justify-content:center;align-items:center;">
-                    <a href="">Logga in</a>
+                    <a href="login.html">Logga in</a>
                 </div>
                 <div class="register" style="display:flex;justify-content:center;align-items:center;">
                     <a href="">Registrera</a>
@@ -37,13 +38,17 @@
                 <a href="">Sök Resor</a>
             </div>
 
-            <div class="list">
+            <div class="list" id="list">
                 <ul>
-                    <li>Om oss</li>
+                    <li><a href="javascript:void(0);" onclick="myFunction()">Om oss</a></li>
                     <li>Min Resa</li>
                     <li>Administration</li>
                     <li>FAQ</li>
                 </ul>
+            </div>
+            <div class="none" id="information">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique tempus lorem, in pellentesque dolor. Nulla vel tortor at dolor gravida sagittis sit amet eu urna. Vivamus id auctor turpis. Integer euismod eros et semper auctor. Proin facilisis, tellus non dictum fermentum, enim elit volutpat lacus, sed sagittis ex orci vel purus. Nunc nec erat vitae augue aliquam viverra. Nunc euismod, dui vitae dictum sollicitudin, ipsum ipsum rutrum lacus, vel volutpat dolor magna eget nisl. Nullam iaculis ligula consequat nunc ultrices, in pellentesque massa venenatis. Ut neque ante, accumsan ut est eu, bibendum maximus libero. Curabitur accumsan dictum sem, non venenatis leo sollicitudin at. Duis consectetur condimentum sapien, nec venenatis metus tincidunt ac. Sed at cursus nunc. Sed lobortis tempus commodo. Aenean ut ante quis ligula aliquet aliquet. </p>
+            <a href="javascript:void(0);" onclick="myFunction()">back</a>
             </div>
 
         </main>
